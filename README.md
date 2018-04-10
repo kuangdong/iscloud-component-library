@@ -32,4 +32,46 @@ Depending on the component library of the Vue.js
     <td>-</td>
     <td>body</td>
   </tr>
+  <tr>
+    <td>text</td>
+    <td>显示在加载图标下方的加载文字</td>
+    <td>String</td>
+    <td>-</td>
+    <td>正在加载...</td>
+  </tr>
+  <tr>
+    <td>background</td>
+    <td>遮罩背景色</td>
+    <td>String</td>
+    <td>-</td>
+    <td>rgba(0,0,0,0.6)</td>
+  </tr>
+  <tr>
+    <td>testColor</td>
+    <td>加载文字字体颜色</td>
+    <td>String</td>
+    <td>-</td>
+    <td>#fff</td>
+  </tr>
+  <tr>
+    <td>textSize</td>
+    <td>加载文字字体大小</td>
+    <td>String</td>
+    <td>-</td>
+    <td>14px</td>
+  </tr>
+  <tr>
+    <td>iconColor</td>
+    <td>加载图标颜色</td>
+    <td>String</td>
+    <td>-</td>
+    <td>#fff</td>
+  </tr>
+  <tr>
+    <td>iconColor</td>
+    <td>加载图标类型(共有8种图标类型)</td>
+    <td>Number</td>
+    <td>-</td>
+    <td>1</td>
+  </tr>
   </table>
