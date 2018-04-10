@@ -11,7 +11,7 @@ Depending on the component library of the Vue.js
   </div>
   
   <p>2.关闭全局loading组件:</p>
-  <div>
+  <code>
   <p>let loading=this.$loading;</p>
   <p>loading.close();</p>
-  </div>
+  </code>
