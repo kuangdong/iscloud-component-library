@@ -17,4 +17,19 @@ Depending on the component library of the Vue.js
   loading.close();
   </code>
   <p>loading.open方法的配置。</p>
-  
+  <table>
+    <tr>
+      <th>参数</th>
+      <th>说明</th>
+      <th>类型</th>
+      <th>可选值</th>
+      <th>默认值</th>
+  </tr>
+  <tr>
+    <td>target</td>
+    <td>Loading 需要覆盖的 DOM 节点。传入字符串.</td>
+    <td>String</td>
+    <td>-</td>
+    <td>body</td>
+  </tr>
+  </table>
