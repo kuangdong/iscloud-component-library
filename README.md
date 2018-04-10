@@ -7,3 +7,6 @@ Depending on the component library of the Vue.js
   1.全局引用loading组件的方法：
        let loading=this.$loading;
        loading.open({iconType:1,iconColor:'#55a8fd',textColor:'#55a8fd',background:'rgba(0,0,0,0.8)',textSize:'12px'});
+  2.关闭全局loading组件:
+       let loading=this.$loading;
+       loading.close();
