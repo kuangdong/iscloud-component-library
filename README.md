@@ -16,3 +16,5 @@ Depending on the component library of the Vue.js
   
   loading.close();
   </code>
+  <p>loading.open方法的配置。</p>
+  
