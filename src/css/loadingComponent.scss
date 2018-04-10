@@ -1,0 +1,41 @@
+@import "base";
+.ic-loading-container{
+  position: absolute;
+  top:0;
+  left: 0;
+  bottom:0;
+  right: 0;
+  transition: all 0.6s;
+  z-index: 2099;
+}
+.ic-Mask{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.6);
+}
+.ic-loading-spinner{
+  width:100%;
+  height: 50px;
+  position: absolute;
+  top:50%;
+  margin-top: -25px;
+  text-align: center;
+}
+.ic-loading-text{
+  font-size: 14px;
+  color:#fff;
+}
+.ic-loading-icon{
+  width:50px;
+  height: 40px;
+  display: inline-block;
+}
+.ic-loading-fade-enter-active,.ic-loading-fade-leave-active{
+  transition: opacity 0.5s;
+}
+.ic-loading-fade-enter,.ic-loading-fade-leave-active{
+  opacity: 0;
+}

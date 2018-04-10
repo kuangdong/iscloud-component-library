@@ -1,0 +1,89 @@
+@import "base";
+.ic-pagination-pre,.ic-pagination-next{
+  display: inline-block;
+  width:35px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.ic-pagination-pre.disable,.ic-pagination-next.disable{
+    color:$secondColor;
+   cursor: not-allowed;
+}
+.ic-pagination-pre:hover,.ic-pagination-next:hover{
+  color:$thirdColor;
+}
+.ic-pagination-page{
+  display: inline-block;
+  white-space: nowrap;
+}
+.ic-pagination-item{
+  display: inline-block;
+  min-width: 35px;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 13px;
+  margin: 0 5px;
+}
+.ic-pagination-item:hover{
+  color: $thirdColor;
+}
+.ic-pagination-item.active{
+  color:$thirdColor;
+  cursor: default;
+}
+.ic-pagination-text{
+  display: inline-block;
+  font-size: 13px;
+  padding: 8px;
+}
+.ic-pagination-jump{
+  display: inline-block;
+  font-size: 13px;
+  margin-left: 5px;
+}
+.ic-pagination-input{
+  -webkit-appearance: none;
+  width: 40px;
+  height: 22px;
+  border-radius: $border-radius;
+  border: $border;
+  padding: 0 3px;
+  margin: 0 5px;
+  color:$secondColor;
+  text-align: center;
+  -moz-appearance: textfield;
+}
+.background .ic-pagination-pre,.background .ic-pagination-next{
+  background-color: $secondBg;
+}
+.background .ic-pagination-item{
+  background-color: $secondBg;
+  border-radius: $border-radius;
+}
+.background .ic-pagination-item.active{
+  background-color: $primaryBg;
+  color:#fff;
+}
+.background .ic-pagination-text{
+  background-color: $secondBg;
+}
+.ic-pagination-jump-btn{
+  font-size: 13px;
+  cursor: pointer;
+  display: inline-block;
+  height: 22px;
+  line-height: 22px;
+  width: 50px;
+  text-align: center;
+}
+.ic-pagination-jump-btn:hover{
+  color:$thirdColor;
+}
+
+
+
+

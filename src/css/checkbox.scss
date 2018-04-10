@@ -1,0 +1,38 @@
+@import "base";
+.ic-checkbox-icon{
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: $border;
+  background: #fff;
+  position: relative;
+  margin-right: 5px;
+  top: 2px;
+}
+.ic-checkbox-item{
+  cursor: pointer;
+  margin-right: 20px;
+}
+.ic-checkbox-label{
+  color: $primaryColor;
+}
+.ic-checkbox-fill{
+  display: inline-block;
+  border: 2px solid #fff;
+  border-top-width: 0;
+  border-right-width: 0;
+  width: 8px;
+  height: 4px;
+  transform: rotate(-50deg) scale(0,0);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.3s;
+}
+.select .ic-checkbox-fill{
+  transform: rotate(-50deg) scale(1,1);
+}
+.select .ic-checkbox-icon{
+  background: $primaryBg;
+  border: $border2;
+}
